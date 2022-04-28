@@ -2,16 +2,16 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: 'ZHK Planet Status',
 
   // 站点链接
-  SiteUrl: '/',
+  SiteUrl: 'status.314514.xyz/',
 
   // UptimeRobot Api 域名
   // 只需填写域名部分，默认为官网域名
   // 因官网 API 时不时的会 CROS 报错，可填自定义反代域名
   // 详见 https://github.com/yb/uptime-status/ 说明
-  ApiDomain: 'api.uptimerobot.com',
+  ApiDomain: 'uptime-status-api.blhcm.workers.dev',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
@@ -33,12 +33,12 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
+      text: 'ZHK Planet',
+      url: 'https://www.314514.xyz/'
     },
     {
-      text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
+      text: 'SSL Monitor',
+      url: 'https://ssl.314514.xyz'
     }
   ]
 };
